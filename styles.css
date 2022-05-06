@@ -1,0 +1,178 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+html {
+    scroll-behavior: smooth;
+}
+
+*{font-family: Montserrat;
+
+}
+
+header.header{
+    display: flex;
+    align-items: center;
+}
+
+body{
+    margin: 0px auto;
+}
+
+
+header.header img{
+    width: 150px;
+}
+
+section.top-page{
+    background-color: white;
+    padding: 25px;
+}
+
+
+nav.menu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+
+}
+nav.menu li a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.landing-page{
+    padding: 20px 50px;
+}
+
+
+h1.slogan{
+    font-size: 80px;
+    font-family: abril Fatface;
+    font-weight: 100;
+}
+
+
+.scroll-down {
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+}
+
+.services {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.service-item {
+    display: flex;
+    position: relative;
+    left: 30px;
+    margin-left: 50px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon {
+    font-size: 50px;
+    color: black;
+}
+
+.service-details {
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+
+.section-title {
+    display: flex;
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-title::before {
+    content: "";
+    position: absolute;
+    background-color: #ADD981;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.bests-items {
+    margin: 100px;
+}
+
+.best-cars {
+    min-height: 500px;
+}
+
+.car-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.no-grid {
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+    grid-template-columns: repeat(4);
+    display: block;
+}
+
+.voit1 {
+    background-image: url(https://ev.saabre.com/storage/app/uploads/public/601/20d/94a/thumb_1188_300_200_0_0_auto.jpg);
+}
+
+.voit2 {
+    background-image: url(https://ev.saabre.com/storage/app/uploads/public/5e5/7d8/d83/thumb_1094_300_200_0_0_auto.jpg);
+}
+
+.voit3 {
+    background-image: url(https://ev.saabre.com/storage/app/uploads/public/5e1/729/ee4/thumb_950_300_200_0_0_auto.png);
+}
+
+.voit4 {
+    background-image: url(https://ev.saabre.com/storage/app/uploads/public/5f2/d56/cc4/thumb_1139_300_200_0_0_auto.jpg);
+}
+
+.plan-details {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #FFFFFFDF;
+    padding: 5px 20px;
+}
+
+.car-name {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+}
+
+.car-price {
+    color: black;
+    line-height: 3px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
+}
+
+footer a.cgv {
+    text-decoration: none;
+    color: black;
+}
